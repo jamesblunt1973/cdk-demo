@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "f9ff6d3c-bbb9-4fa6-8ff3-d779f1a8908f",
+		"name": "TodoAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3569273"
+	},
+	"item": [
+		{
+			"name": "https://sbgxprltnzcfihzcwfsjduzufq0ohwoh.lambda-url.eu-north-1.on.aws/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sbgxprltnzcfihzcwfsjduzufq0ohwoh.lambda-url.eu-north-1.on.aws/",
+					"protocol": "https",
+					"host": [
+						"sbgxprltnzcfihzcwfsjduzufq0ohwoh",
+						"lambda-url",
+						"eu-north-1",
+						"on",
+						"aws"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://sbgxprltnzcfihzcwfsjduzufq0ohwoh.lambda-url.eu-north-1.on.aws/?id=a8b9a554-f99e-40b3-a1bd-f647abf174b3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sbgxprltnzcfihzcwfsjduzufq0ohwoh.lambda-url.eu-north-1.on.aws/?id=a8b9a554-f99e-40b3-a1bd-f647abf174b3",
+					"protocol": "https",
+					"host": [
+						"sbgxprltnzcfihzcwfsjduzufq0ohwoh",
+						"lambda-url",
+						"eu-north-1",
+						"on",
+						"aws"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "a8b9a554-f99e-40b3-a1bd-f647abf174b3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://sbgxprltnzcfihzcwfsjduzufq0ohwoh.lambda-url.eu-north-1.on.aws/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"To test the Delete\",\r\n    \"description\": \"\",\r\n    \"duoDate\": \"Tuesday, 29 June 2023\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sbgxprltnzcfihzcwfsjduzufq0ohwoh.lambda-url.eu-north-1.on.aws/",
+					"protocol": "https",
+					"host": [
+						"sbgxprltnzcfihzcwfsjduzufq0ohwoh",
+						"lambda-url",
+						"eu-north-1",
+						"on",
+						"aws"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://sbgxprltnzcfihzcwfsjduzufq0ohwoh.lambda-url.eu-north-1.on.aws/",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"a8b9a554-f99e-40b3-a1bd-f647abf174b3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sbgxprltnzcfihzcwfsjduzufq0ohwoh.lambda-url.eu-north-1.on.aws/",
+					"protocol": "https",
+					"host": [
+						"sbgxprltnzcfihzcwfsjduzufq0ohwoh",
+						"lambda-url",
+						"eu-north-1",
+						"on",
+						"aws"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://sbgxprltnzcfihzcwfsjduzufq0ohwoh.lambda-url.eu-north-1.on.aws/?id=cba0cb96-8eae-4470-a608-3d9279244d75",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"duoDate\": \"Tuesday, 29 June 2023\",\r\n    \"description\": \"For the assignment\",\r\n    \"id\": \"532296c7-3e01-4f49-8269-6da177e9853b\",\r\n    \"isDone\": false,\r\n    \"title\": \"Add Todo model\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sbgxprltnzcfihzcwfsjduzufq0ohwoh.lambda-url.eu-north-1.on.aws/?id=cba0cb96-8eae-4470-a608-3d9279244d75",
+					"protocol": "https",
+					"host": [
+						"sbgxprltnzcfihzcwfsjduzufq0ohwoh",
+						"lambda-url",
+						"eu-north-1",
+						"on",
+						"aws"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "cba0cb96-8eae-4470-a608-3d9279244d75"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
